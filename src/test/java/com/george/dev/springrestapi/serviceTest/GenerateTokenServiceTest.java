@@ -48,5 +48,7 @@ public class GenerateTokenServiceTest {
         String actualDecodedCredentials = "superuser:pass123";
 
         assertThat(decodedCredentials, is(equalTo(actualDecodedCredentials)));
+
+        System.out.println(decodedCredentials);
     }
 }
